@@ -71,14 +71,14 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
   height: 298px;
   overflow-y: auto;
   overflow-x: hidden;
-  position: relative;
-  margin: auto;
+  max-width: 399px;
 }
 
 .content__details {
@@ -117,7 +117,7 @@ ol {
   object-fit: cover;
   object-position: center;
   height: 103px;
-  min-width: 194px;
+  max-width: 194px;
 }
 
 .content__video-card-description-container {
