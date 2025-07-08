@@ -58,6 +58,9 @@ ol {
   align-items: end;
   gap: 30px;
   width: 100%;
+  justify-content: center;
+  justify-items: center;
+  min-height: 534px;
 }
 
 .search-form {
@@ -71,10 +74,11 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  max-height: 298px;
+  height: 298px;
   overflow-y: auto;
   overflow-x: hidden;
   position: relative;
+  margin: auto;
 }
 
 .content__details {
